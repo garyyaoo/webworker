@@ -1,10 +1,27 @@
 {
-    "name": "Getting Started Example",
+    "name": "Webworker",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "Does your webwork!",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
     "background": {
-        "scripts": ["background.js"],
-        "persistent": false
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/webwork16.png",
+        "32": "images/webwork32.png",
+        "48": "images/webwork48.png",
+        "128": "images/webwork128.png"           
       },
+      "default_title": "Webwork"
+    },
+    "icons": {
+      "16": "images/webwork16.png",
+        "32": "images/webwork32.png",
+        "48": "images/webwork48.png",
+        "128": "images/webwork128.png"
+    },
     "manifest_version": 2
   }
