@@ -12,9 +12,9 @@ Google chrome extension that magically automates webwork.
     
 
 
-If it does not work, the button will also change !
+**ONLY WORKS ON MULTIPLE CHOICE QUESTIONS AS OF NOW**
 
-**Do not try again !** . The answers will not change.
+If it fails, **Do not try again !** . The answers will not change.
 
 Good luck!
  
